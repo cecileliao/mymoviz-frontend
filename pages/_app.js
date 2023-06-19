@@ -5,7 +5,8 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Next.js App</title>
+        <title>My Moviz</title>
+        <link rel="icon" type="image/png" href="logo.png"/>
       </Head>
       <Component {...pageProps} />
     </>
